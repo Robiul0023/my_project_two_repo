@@ -5,6 +5,7 @@
  #container
  {
      width : 100%;
+     
  }
 
  
@@ -15,10 +16,11 @@
     font-family: tahoma;
     font-weight: 800;
     text-align: center;
+    margin: 10px;
 }
 
 #container img{
-    width:  300px;
+    width:  350px;
     height: 400px;
     margin-right: auto;
     margin-left: auto;
@@ -31,6 +33,7 @@
     font-family: tahoma;
     font-weight: bold;
     text-align: center;
+    margin-top: 10px;
     }
 #container h5{
     color:seagreen;
@@ -43,8 +46,10 @@
 #container p{
     text-align: justify;
     font-size:14px;
-    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     font-family: tahoma;
+    box-sizing: border-box;
 }
 
 .content_1{
