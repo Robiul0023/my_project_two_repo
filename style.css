@@ -1,4 +1,15 @@
-h2{
+ *{
+     margin : 0; 
+     padding : 0;
+ }
+ #container
+ {
+     width : 960px;
+ }
+
+ 
+ 
+ #container h2{
     color:darkcyan;
     text-align: center;
     font-family: tahoma;
@@ -6,9 +17,8 @@ h2{
     text-align: center;
 }
 
-img{
-
-    width:  200px;
+#container img{
+    width:  250px;
     height: 400px;
     margin-right: auto;
     margin-left: auto;
@@ -16,23 +26,40 @@ img{
     box-sizing: border-box;
 }
  
-h4{
+#container h4{
     color:darkcyan;
     font-family: tahoma;
     font-weight: bold;
     text-align: center;
     }
-    h5{
-        color:seagreen;
-        text-align: center;
-        font-weight: bold;
-        font-size: 18px;
+#container h5{
+    color:seagreen;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
 
     }
 
-p{
+#container p{
     text-align: justify;
     font-size:14px;
     padding: 10px;
     font-family: tahoma;
+}
+
+.content_1{
+    float : left;
+    width : 300px;
+    
+}
+
+.content_2{
+    float : left;
+    width : 300px;
+    margin-left: 30px;
+}
+.content_3{
+    float : left;
+    width : 300px;
+    margin-left: 30px;
 }
