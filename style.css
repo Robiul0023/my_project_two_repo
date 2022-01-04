@@ -1,0 +1,11 @@
+h2{
+    color:darkcyan;
+    text-align: center;
+    font: 1em sans-serif;
+}
+p{
+    text-align: justify;
+    font-size: medium;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
