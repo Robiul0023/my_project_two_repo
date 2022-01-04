@@ -4,7 +4,7 @@
  }
  #container
  {
-     width : 960px;
+     width : 100%;
  }
 
  
@@ -18,7 +18,7 @@
 }
 
 #container img{
-    width:  250px;
+    width:  300px;
     height: 400px;
     margin-right: auto;
     margin-left: auto;
@@ -49,17 +49,16 @@
 
 .content_1{
     float : left;
-    width : 300px;
-    
+    width : 32%;
 }
 
 .content_2{
     float : left;
-    width : 300px;
-    margin-left: 30px;
+    width : 32%;
+    margin-left: 2%;;
 }
 .content_3{
     float : left;
-    width : 300px;
-    margin-left: 30px;
+    width : 32%;
+    margin-left: 2%;
 }
